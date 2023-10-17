@@ -67,9 +67,9 @@ header {
   }
 }
   .My_photo {
-    border-radius: 10px;  /* Скругление углов изображения */
-    border: 5px solid #fff; /* Цвет и ширину рамки */
-    box-shadow: 2px 1px 5px #999999; /* Цвет и размер тени */
+    border-radius: 10px;
+    border: 5px solid #fff;
+    box-shadow: 2px 1px 5px #999999;
 }
   .icon {
     width: 48px;
