@@ -5,7 +5,7 @@
   <body>
     <img src="/src/assets/B13A0313.JPG"  class = "My_photo" width="350">
     <h1 class = "info">Мелихова Василина Андреевна</h1>
-    <p class = "info">Будущий программист - организатор</p>
+    <h4 class = "info">Будущий программист - организатор</h4>
     <a href="https://t.me/Vasilina_Melikhova">
       <img src="/src/assets/telegram_icon_131945.svg" alt="Telegram" class = "icon"></a>
     <a href="https://vk.com/melikhova2004">
@@ -52,6 +52,20 @@ header {
     flex-wrap: wrap;
   }
 }
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+
+
+  body.wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
   .My_photo {
     border-radius: 10px;  /* Скругление углов изображения */
     border: 5px solid #fff; /* Цвет и ширину рамки */
@@ -61,6 +75,7 @@ header {
     width: 48px;
     height: 48px;
     margin-left: 12px;
+    margin-right: 12px;
   }
   .info{
     margin-left: 7%;
