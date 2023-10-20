@@ -1,0 +1,26 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #6b6b6b;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color:#6b6b6b;
+  }
+}
+
+
+body{
+  font-family: 'Christmas ScriptC';
+}
