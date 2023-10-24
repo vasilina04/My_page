@@ -1,7 +1,6 @@
-# My_page
-## Customize configuration
+# Добро пожаловать на мой сайт
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+https://melikhovava.ru/
 
 ## Project Setup
 
