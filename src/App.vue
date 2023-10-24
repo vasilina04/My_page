@@ -4,6 +4,7 @@
 
 <template>
     <body>
+      <div class="Mypage">
       <div class="start_info">
         <img src="/src/static/I.jpg" class="My_photo" width="300">
         <div class="profile">
@@ -36,11 +37,11 @@
             <li>Учусь преподавать</li>
             <li>Люблю сложные задачи с нестандартными решениями</li>
         </ul>
+      </div>
     </body>
 </template>
 
 <style scoped>
-
 
 .My_photo {
   float: left;
